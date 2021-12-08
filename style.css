@@ -88,7 +88,7 @@ nav > div {
 }
 
 #logo img {
-  width: 100px;
+  max-width: 300px;
   height: auto;
   object-fit: contain;
 }
@@ -151,11 +151,7 @@ nav > div {
 /*Welcome*/
 
 #welcome{
-  /*NEEDED?*/
-  margin-top: 100px;
-  padding-top: 100px;
-  height: calc(100vh - 200px);
-  /*NEEDED?*/
+  height: 100vh;
   width: 100%;
   background-image: url("https://propawsk9.com/wp-content/uploads/2021/12/pexels-helena-lopes-3114143.jpg");
   background-position: center;
@@ -170,7 +166,7 @@ nav > div {
 }
 
 #logo-parallax{
-  background-image: url("./images/LogoParallax.png");
+  background-image: url("https://propawsk9.com/wp-content/uploads/2021/12/ProPawsRepeating.png");
 }
 
 /*SERVICES*/
@@ -195,10 +191,11 @@ nav > div {
 }
 
 #services ul li img {
-  height: 40%;
+  height: 50%;
   width: 100%;
   object-fit: cover;
-  border-radius: 0 0 50% 50%;
+  object-position: center;
+  border-radius: 0 0 30% 30%;
 }
 
 #services ul li div{
@@ -225,7 +222,11 @@ nav > div {
   align-items: center;
   justify-content: center;
   margin:0 20vw 0 20vw;
-  border-top: #1B223F 1px solid;
+  /* border-top: #1B223F 1px solid; */
+  background-color: white;
+  color: #1B223F;
+  font-size: 1.4em;
+  font-weight: 900;
 }
 
 #about div{
